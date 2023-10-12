@@ -133,3 +133,9 @@ func AuthMiddleware() gin.HandlerFunc {
 func test(){
 		
 }
+func demo1（）{
+
+}
+func demo2(){
+	
+}
