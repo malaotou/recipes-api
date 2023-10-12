@@ -110,6 +110,7 @@ func NewRecipeHandler(c *gin.Context) {
 
 }
 
+
 func demo() {
 	router := gin.Default()
 	router.Use(AuthMiddleware())
@@ -127,4 +128,8 @@ func AuthMiddleware() gin.HandlerFunc {
 		}
 	}
 	
+
+}
+func test(){
+		
 }
